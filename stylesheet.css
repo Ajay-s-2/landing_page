@@ -1,0 +1,100 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color:#98c1d9;
+}
+#header
+{
+    width: 100%;
+    min-height: 40px;
+    background-color:#3d5a80;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#imglogo
+{
+    width: 40px;
+    border-radius: 50%;
+    line-height: center;
+    
+}
+.navbar{
+    
+   padding-left: 700px;
+    
+}
+.navbar a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+    
+}
+.navbar li{
+    float: left;
+    padding-left: 15px;
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: px;
+}
+
+#animation_img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#landingpage
+{
+    width: 100%;
+    height: auto;
+
+}
+.animation{
+    width: 50%;
+    float: left;
+    margin:10px;
+    padding-left: 130px;
+    padding-top: 150px;
+}
+.content h1{
+    
+    margin: 5px;
+    padding-top: 170px;
+}
+.content p{
+    text-align: justify;
+    margin: 10px;
+    padding-top: 10px;
+}
+#text button{
+    
+}
+#button1{
+    display: block;
+    background-color:#ee6c4d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30PX;
+}
+#button1 hover{
+    background-color:0;
+    
+}
+
